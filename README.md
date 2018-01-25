@@ -1,7 +1,7 @@
 In `README.md`, mock out a quick introduction for those stumbling upon your future Portfolio Project. Be sure to include:
 
 
-#Cheryl Zuckerman
+# Cheryl Zuckerman
 
 ## Describing Myself:
 
@@ -15,7 +15,7 @@ I don't like photos, but I do love learning, and I'm going back to my "tech" roo
 + I'm Deaf, so if I don't answer you, the most likely answer is that I didn't hear you
 + I love learning, and sometimes I fall down a rabbit-hole so I use a timer to keep on track
 
-## My Social Media Links 
+## My Social Media Links
 
 - ![my LinkedIn link](https://www.linkedin.com/in/czuckerman/)
 - ![my Github link](https://github.com/macwizard3)
