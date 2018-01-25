@@ -17,6 +17,6 @@ I don't like photos, but I do love learning, and I'm going back to my "tech" roo
 
 ## My Social Media Links
 
-- ![my LinkedIn link](https://www.linkedin.com/in/czuckerman/)
-- ![my Github link](https://github.com/macwizard3)
-- ![my Twitter link](https://twitter.com/CZtech)
+- [my LinkedIn link](https://www.linkedin.com/in/czuckerman/)
+- [my Github link](https://github.com/macwizard3)
+- [my Twitter link](https://twitter.com/CZtech)
