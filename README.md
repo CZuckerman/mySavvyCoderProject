@@ -1,6 +1,3 @@
-In `README.md`, mock out a quick introduction for those stumbling upon your future Portfolio Project. Be sure to include:
-
-
 # Cheryl Zuckerman
 
 ## Describing Myself:
@@ -20,3 +17,5 @@ I don't like photos, but I do love learning, and I'm going back to my "tech" roo
 - [my LinkedIn link](https://www.linkedin.com/in/czuckerman/)
 - [my Github link](https://github.com/macwizard3)
 - [my Twitter link](https://twitter.com/CZtech)
+
+---
