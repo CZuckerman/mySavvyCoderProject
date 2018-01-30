@@ -1,0 +1,15 @@
+html {
+box-sizing: border-box;
+
+}
+
+#header {
+  text-align: center;
+  color: purple;
+
+}
+
+div {
+  box-sizing: border-box;
+
+}
