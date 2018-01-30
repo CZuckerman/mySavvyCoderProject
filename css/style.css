@@ -8,10 +8,27 @@ nav {
   margin: 20px;
   padding: 15px;
 
-
 }
 
+body {
+  background-color:"#58D3F7";
 
+}
+h1 {
+        font-family: Trebuchet;
+        color: purple;
+      }
+p {
+        width: 79%;
+        color: blue;
+        padding: 10px;
+      }
+i {
+        font-size: 300%;
+      }
+
+
+</style>
 #header {
 
   color: purple;
