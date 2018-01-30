@@ -1,10 +1,19 @@
 html {
 box-sizing: border-box;
+max-width: 80%;
+
+}
+nav {
+  display: inline-grid;
+  margin: 20px;
+  padding: 15px;
+
 
 }
 
-#header {
-  text-align: center;
+
+.header {
+
   color: purple;
 
 }
