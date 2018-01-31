@@ -1,14 +1,8 @@
 
-* {
-
-
+body {
+  background-color: #58D3F7;
 }
 
-html {
-boorder: 1px solid red;
-max-width: 80%;
-
-}
 nav {
   margin: 20px;
   padding: 25px;
@@ -22,7 +16,7 @@ padding-right: 15px;
 
 body {
   background-color:"#58D3F7";
-
+  border:
 
 }
 h1 {
