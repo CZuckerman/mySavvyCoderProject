@@ -1,18 +1,22 @@
 
+* {
+
+
+}
+
 html {
-box-sizing: border-box;
+boorder: 1px solid red;
 max-width: 80%;
 
 }
 nav {
-  display: inline-grid;
   margin: 20px;
-  padding: 15px;
+  padding: 25px;
 
 }
 nav a {
-margin-right: 5px;
-
+margin-right: 15px;
+padding-right: 15px;
 
 }
 
@@ -31,8 +35,8 @@ p {
         margin: 5px;
         padding: 10px;
       }
-i {
-        font-size: 300%;
+a:link {
+    grid-column: 2 / 4;
       }
 
 
