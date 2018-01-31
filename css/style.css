@@ -5,6 +5,7 @@ body {
 
 body.home a.home, body.media a.media, body.projects a.projects, body.blog a.blog {
   color: #FF0000;
+  font-weight: bold;
 }
 
 nav {
