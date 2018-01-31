@@ -3,6 +3,10 @@ body {
   background-color: #58D3F7;
 }
 
+body.home a.home, body.media a.media, body.projects a.projects, body.blog a.blog {
+  background-color:inherit;
+}
+
 nav {
   margin: 20px;
   padding: 25px;
@@ -25,12 +29,6 @@ p {
         margin: 5px;
         padding: 10px;
       }
-a:link {
-    grid-column: 2 / 4;
-
-      }
-
-
 
 div {
   box-sizing: border-box;
