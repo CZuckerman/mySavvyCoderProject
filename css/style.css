@@ -4,7 +4,7 @@ body {
 }
 
 body.home a.home, body.media a.media, body.projects a.projects, body.blog a.blog {
-  color: #D8D8D8;
+  color: #FF0000;
 }
 
 nav {
