@@ -1,6 +1,6 @@
 
 body {
-  background-color: #58D3F7;
+  background-color: #D8D8D8;
 }
 
 body.home a.home, body.media a.media, body.projects a.projects, body.blog a.blog {
@@ -8,6 +8,8 @@ body.home a.home, body.media a.media, body.projects a.projects, body.blog a.blog
 }
 
 nav {
+  font-size: 1.5em;
+  font-style:normal;
   margin: 20px;
   padding: 25px;
 
