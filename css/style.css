@@ -4,7 +4,7 @@ body {
 }
 
 body.home a.home, body.media a.media, body.projects a.projects, body.blog a.blog {
-  background-color:inherit;
+  color: #D8D8D8;
 }
 
 nav {
@@ -31,8 +31,3 @@ p {
         margin: 5px;
         padding: 10px;
       }
-
-div {
-  box-sizing: border-box;
-
-}
