@@ -3,7 +3,7 @@ body {
     background-color: #D8D8D8;
 }
 
-body.home a.home, body.media a.media, body.projects a.projects, body.blog a.blog {
+body.home a.home, body.media a.media, body.projects a.projects, body.blog a.blog body.contact a.contact{
     color: #FF0000;
     font-weight: bold;
     text-decoration-line: underline;
@@ -14,12 +14,16 @@ nav {
     font-style:normal;
     margin: 20px;
     padding: 25px;
-
 }
+
 nav a {
     display: inline-block;
     margin-right: 15px;
     padding-right: 15px;
+}
+
+.link img:hover {
+
 }
 
 h1 {
@@ -38,9 +42,13 @@ div.container {
     margin: 0 auto;
 }
 
-div.footer {
-  display: inline-block;
-  float: left;
+footer a {
   margin: 10px;
-  padding-right: 10px;
+  padding: 10px;
+}
+
+/* use for fontawesome icons */
+
+i {
+  font-size: 3em;
 }
