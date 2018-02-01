@@ -3,28 +3,27 @@ body {
     background-color: #D8D8D8;
 }
 
-body.home a.home, body.media a.media, body.projects a.projects, body.blog a.blog body.contact a.contact{
+a.home, a.media, a.projects, a.blog, a.contact {
     color: #FF0000;
     font-weight: bold;
     text-decoration-line: underline;
 }
 
+
 nav {
-    font-size: 1.5em;
-    font-style:normal;
+    font-size: 1.25em;
+    font-style: normal;
     margin: 20px;
-    padding: 25px;
+    padding-right: 25px;
 }
 
-nav a {
+nav-link {
     display: inline-block;
-    margin-right: 15px;
-    padding-right: 15px;
+    margin: 15px;
+    padding: 15px;
 }
 
-.link img:hover {
 
-}
 
 h1 {
     font-family: Trebuchet;
@@ -43,6 +42,7 @@ div.container {
 }
 
 footer a {
+  display: inline-block;
   margin: 10px;
   padding: 10px;
 }
@@ -50,5 +50,5 @@ footer a {
 /* use for fontawesome icons */
 
 i {
-  font-size: 3em;
+  font-size: 5em;
 }
