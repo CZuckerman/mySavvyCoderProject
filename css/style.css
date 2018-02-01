@@ -7,22 +7,39 @@ body {
 body.home a.home, body.media a.media, body.projects a.projects, body.blog a.blog, body.contact a.contact {
     color: #FF0000;
     font-weight: bold;
-    text-decoration-line: underline;
+    text-decoration-line: none;
 }
-
 
 nav {
   font-size: 1.5em;
   font-style:normal;
-  margin: 20px;
+  margin: 10px;
   padding: 25px;
+}
+
+.navigation > ul > li {
+  display: inline;
+  padding: 10px;
+  list-style: none;
+}
+
+.navigation .dropdown {
+  display: none;
+}
+
+.navigation a:hover + .dropdown {
+  display: block;
 
 }
-nav a {
+
+/*
+ nav a {
 display: inline-block;
 margin-right: 15px;
 padding-right: 15px;
 }
+*/
+
 
 /*nav-link {
     display: inline-block;
@@ -39,10 +56,13 @@ h1 {
 p {
     width: 79%;
     font-size:1.25em;
-    color: blue;
     margin: 5px;
     padding: 10px;
       }
+.intro {
+  color: blue;
+
+}
 
 div.container {
     max-width: 960px;
@@ -51,8 +71,9 @@ div.container {
 
 footer a i {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 40px;
   padding: 5px;
+  text-decoration: none
 }
 
 /* use for fontawesome icons */

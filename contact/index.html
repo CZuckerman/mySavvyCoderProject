@@ -19,12 +19,14 @@
 
   <div class="container">
 
-    <nav>
-      <a href = "../" class="home nav-link">Home</a>
-      <a href = "../projects/" class="projects nav-link">Projects</a>
-      <a href = "../media/"class="media nav-link">Media  </a>
-      <a href = "../blog/"class="blog nav-link">Blog  </a>
-      <a href = "contact/"class="contact nav-link">Contact Form</a>
+    <nav class="navigation">
+    <ul>
+      <li><a href = "../" class="home nav-link">Home</a></li>
+      <li><a href = "../projects/" class="projects nav-link">Projects</a></li>
+      <li><a href = "../media/"class="media nav-link">Media  </a></li>
+      <li><a href = "../blog/"class="blog nav-link">Blog  </a></li>
+      <li><a href = "../contact/"class="contact nav-link">Contact Form</a></li>
+    </ul>
     </nav>
 
   <!--
@@ -32,22 +34,24 @@
     The method attribute specifies the HTTP method (GET or POST)
   -->
 
-  <form action="form-responses/new" method="POST">
+  <form action="//formspree.io/cztech@gmail.com" method="POST">
 <div class = "contactname">
-    First Name: <input type="text" name="firstname" value="First Name" size="35" required autofocus>
-    Last Name:  <input type="text" name="lastname" value="Last Name" size="35"required>
-</div>
+    First Name: <input type="text" name="firstname" value="" size="35" required autofocus>
+    Last Name:  <input type="text" name="lastname" value="" size="35"required>
+
+<br>
 <br>
     Email: <input type="email" name="userEmail" placeholder="your.email@example.com" required>
-
+</div>
 <br>
 <br>
 
-<label>What's this message about?</li>
+<label>What's this message about?
+  <br>
 
      <input type="radio" name="subject" value="professional" checked><span>I'd like to hire you!</span>
-     <input type="radio" name="subject" value="personal" checked><span>Personal message</span>
-     <input type="radio" name="subject" value="other" checked><span>Don't know/something else</span>
+    <br> <input type="radio" name="subject" value="personal" checked><span>Personal message</span>
+    <br> <input type="radio" name="subject" value="other" checked><span>Don't know/something else</span>
     </label>
 
 <br>
@@ -72,7 +76,8 @@
       </optgroup>
       <option value="other">Other</option>
     </select>
-<br>
+<br><br>
+<p>Send me a message:</p>
     <textarea name="user_message" rows="8" cols="40"></textarea>
 <br>
     <input type="submit">
