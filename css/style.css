@@ -37,3 +37,10 @@ div.container {
     max-width: 960px;
     margin: 0 auto;
 }
+
+div.footer {
+  display: inline-block;
+  float: left;
+  margin: 10px;
+  padding-right: 10px;
+}
