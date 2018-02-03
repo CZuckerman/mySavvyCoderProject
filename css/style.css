@@ -70,12 +70,12 @@ div.container {
 }
 
 footer a i {
-  display: inline-block;
-  margin-left: 40px;
-  padding: 5px;
-  text-decoration: none;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 40px;
+    padding: 10px;
 }
 
-/* use for fontawesome icons */
-
-/* need to test fontawesome using CDN */
+.fas .fab {
+  padding-right: 5px;
+}
