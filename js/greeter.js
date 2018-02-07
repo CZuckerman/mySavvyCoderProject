@@ -1,7 +1,6 @@
-
-
-
-var name = prompt('What is your name?');
+var name = prompt("Hi there! What's your name?");
+var output = document.querySelector('#greeting');
+output.innerHTML = "<p>Thanks for visiting " + name + " ."
 
 var checkName = function(){
   if(name === "") {
