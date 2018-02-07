@@ -31,24 +31,25 @@
     The method attribute specifies the HTTP method (GET or POST)
   -->
 
-  <form action="//formspree.io/cztech@gmail.com" method="POST">
+<div class="container">
+
+  <form id="form1" action="//formspree.io/cztech@gmail.com" method="POST">
 <div class = "contactname">
-    First Name: <input type="text" name="firstname" value="" size="35" required autofocus>
-    Last Name:  <input type="text" name="lastname" value="" size="35"required>
+    <p>First Name: <input type="text" name="firstname" value="" size="35" required autofocus></p>
+    <p>Last Name:  <input type="text" name="lastname" value="" size="35"required> </p>
 
 <br>
 <br>
     Email: <input type="email" name="userEmail" placeholder="your.email@example.com" required>
-</div>
 <br>
 <br>
 
 <label>What's this message about?
   <br>
 
-     <input type="radio" name="subject" value="professional" checked><span>I'd like to hire you!</span>
-    <br> <input type="radio" name="subject" value="personal" checked><span>Personal message</span>
-    <br> <input type="radio" name="subject" value="other" checked><span>Don't know/something else</span>
+    <input type="radio" name="subject" value="professional" checked><span>I'd like to hire you!</span>
+    <br> <input type="radio" name="subject" value="personal"><span>Personal message</span>
+    <br> <input type="radio" name="subject" value="other"><span>Don't know/something else</span>
     </label>
 
 <br>
@@ -77,9 +78,10 @@
 <p>Send me a message:</p>
     <textarea name="user_message" rows="8" cols="40"></textarea>
 <br>
+</div>
     <input type="submit">
   </form>
-
+</div>
 </div>
 
 <footer>

@@ -50,7 +50,6 @@ h2 {
   font-family: Handlee;
 }
 
-
 p {
     width: 79%;
     font-size:1.25em;
@@ -64,6 +63,13 @@ p {
   color: purple;
 }
 
+#form1 {
+  margin-top: 20px;
+  font-family: Quando;
+  color: purple;
+  font-size: 16px;
+}
+
 div.container {
     max-width: 960px;
     margin: 0 auto;
@@ -75,6 +81,7 @@ footer a i {
     margin-left: 40px;
     padding: 10px;
 }
+
 
 /*
  nav a {
