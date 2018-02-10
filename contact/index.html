@@ -14,17 +14,25 @@
 </head>
 <body class="contact">
 
-  <div class="container">
-
-    <nav class="navigation">
-    <ul>
-      <li><a href = "../" class="home nav-link">Home</a></li>
-      <li><a href = "../projects/" class="projects nav-link">Projects</a></li>
-      <li><a href = "../media/"class="media nav-link">Media  </a></li>
-      <li><a href = "../blog/"class="blog nav-link">Blog  </a></li>
-      <li><a href = "../contact/"class="contact nav-link">Contact Form</a></li>
-    </ul>
+  <nav class="navigation">
+  <ul>
+    <li><a href="../" class="home">Home</a></li>
+    <li><a href="../projects/" class="projects">Projects</a>
+          <ul>
+            <li><a href="projects/student-showcase/">Class Showcase</a></li>
+            <li><a href="projects/cyoa">Choose Your Own Adventure</a></li>
+            <li><a href="#">Web Store Hack-A-Thon</a></li>
+            <li><a href="#">Collaborative Project</a></li>
+          </ul>
+  </li>
+    <li><a href="../media/" class="media">Media</a></li>
+    <li><a href="../blog/" class="blog">Blog</a></li>
+    <li><a href="#" class="contact">Contact Form</a></li>
+  </ul>
     </nav>
+
+    <div class="container">
+
 
   <!--
     The action attribute defines where on the server the form data should be sent
@@ -33,17 +41,18 @@
 
 <div class="container">
 
+<h1>Cheryl Zuckerman -- Contact Form</h1>
+
   <form id="form1" action="//formspree.io/cztech@gmail.com" method="POST">
+    <br>
+    <h4>* indicates that a field is required.</h4>
 <div class = "contactname">
-    <p>First Name: <input type="text" name="firstname" value="" size="35" required autofocus></p>
-    <p>Last Name:  <input type="text" name="lastname" value="" size="35"required> </p>
+    <p>* First Name: <input type="text" name="firstname" value="" size="35" required autofocus></p>
 
-<br>
-<br>
-    Email: <input type="email" name="userEmail" placeholder="your.email@example.com" required>
-<br>
-<br>
+    <p>* Last Name:  <input type="text" name="lastname" value="" size="35"required> </p>
 
+    <p>* Your Email: <input type="email" name="userEmail" placeholder="your.email@example.com" size="35" required> </p>
+<br>
 <label>What's this message about?
   <br>
 
