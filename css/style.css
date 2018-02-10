@@ -106,6 +106,10 @@ p {
   font-size: 16px;
 }
 
+.bold {
+  font-style: bold;
+}
+
 div.container {
     margin: 0px auto auto 20px;
 }
