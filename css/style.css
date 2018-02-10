@@ -12,7 +12,7 @@ h1 {
     font-family: Handlee;
     font-size: 3.2em;
     text-shadow: 4px 4px 4px #aaa;
-    color: purple;
+    color: #6600ff;
       }
 
 h2 {
@@ -56,14 +56,14 @@ nav ul li a {
   text-decoration: none;
   margin-top: -8px;
   margin-left: -20px;
-  color: purple;
+  color: #6600ff;
 }
 
 nav ul li ul {
 display: none;
 position: absolute;
 background-color: #FEFEFE;
-padding: 4px auto auto;
+padding: 8px auto auto;
 }
 
 nav ul li:hover ul {
@@ -73,15 +73,15 @@ display: block;
 nav ul li ul li {
 width: 270px;
 border-radius: 4px;
-padding-top: 4px;
+padding-top: 9px;
 }
 
 nav ul li ul li a {
-padding: 4px;
+padding: 4px 4px;
 }
 
 nav ul li ul li a:hover {
-  padding: 10px auto auto 2px;
+  padding: 4px;
   background-color: #EEEEEE;
 }
 /* END OF NAVIGATION STYLES */
@@ -96,13 +96,13 @@ p {
 .intro {
   font-family: Quando;
   font-size: 16px;
-  color: purple;
+  color: #6600ff;
 }
 
 #form1 {
   margin-top: 20px;
   font-family: Quando;
-  color: purple;
+  color: #6600ff;
   font-size: 16px;
 }
 
