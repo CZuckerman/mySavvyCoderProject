@@ -19,3 +19,5 @@ break;
 case '07734':
   prompt("Congratulations, the door opened. You passed your first test!")
 break;
+
+}
