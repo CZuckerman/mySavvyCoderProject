@@ -2,7 +2,7 @@
 var output = document.querySelector("#exercise1")
 var n = 1;
 while (n <= 10) {
-  output.innerHTML = n;
+  output.innerHTML = "<ul><li>n</li>";
   n++;
 }
 /* End Exercise 1 */
