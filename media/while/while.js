@@ -1,6 +1,5 @@
 /* Exercise 1: Log numbers 1-10 */
-var output = document.querySelector("#exercise1");
- output.innterHTML("<p> Exercise 1 </p>")
+var output = document.querySelector("#exercise1")
 var n = 1;
 while (n <= 10) {
   output.innerHTML(n);
@@ -8,15 +7,14 @@ while (n <= 10) {
 }
 /* End Exercise 1 */
 
-
- var output = document.querySelector("#exercise2");
- output.interHTML "<h2>List all even numbers 1-20</h2>"
+/* Exercise 3: Count by 2s to 20 */
+var output = document.querySelector("#exercise2");
 var n = 2;
-
 while (n <= 20) {
   output.innerHTML (n);
   N += 2;
 }
+/* End Exercise 2 */
 
 var n = 100;
 var i = 1;
