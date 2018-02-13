@@ -1,6 +1,6 @@
 /* Exercise 1: Log numbers 1-10 */
 var output = document.querySelector("#exercise1");
- output.innterHTML "<h2>List numbers 1-10</h2>"
+ output.innterHTML("<p> Exercise 1 </p>")
 var n = 1;
 while (n <= 10) {
   output.innerHTML(n);
