@@ -2,7 +2,7 @@
 var output = document.querySelector("#exercise1")
 var n = 1;
 while (n <= 10) {
-  output.innerHTML n;
+  output.innerHTML = n;
   n++;
 }
 /* End Exercise 1 */
@@ -11,7 +11,7 @@ while (n <= 10) {
 var output = document.querySelector("#exercise2");
 var n = 2;
 while (n <= 20) {
-  output.innerHTML n;
+  output.innerHTML = n;
   N += 2;
 }
 /* End Exercise 2 */
