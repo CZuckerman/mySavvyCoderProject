@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Lobster|Barlow|Kreon:700');
+h1, h2, h3, h4, h5, h6, p, li {
+  font-family: Barlow;
+}
+
+#title {
+  font-family: Kreon;
+  letter-spacing: 200%;
+  display: block;
+  font-size: 300%;
+  line-height: 90%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url(/class-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header h1 {
+  display: block;
+  max-width: 750px;
+  text-align: center;
+  color: white;
+  font-size: 400%;
+  margin-top: 0;
+}
+
+.five a {
+  font-size: 3em;
+  text-decoration: none;
+  color: red;
+  -webkit-text-stroke: 2px black;
+}
+
+.five {
+  background-image: url(https://i.imgur.com/wdC1Jzk.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Lobster', cursive;
+  color: red;
+  -webkit-text-stroke: 2px black;
+  user-select: none;
+  display: flex;
+}
+
+.five:hover {
+  opacity: .5
+}
+
+.five img {
+  height: 75px;
+  border-radius: 40px;
+}
+
+.subfive {
+  margin: auto;
+}
+
+
+
+.content>div:nth-child(12) {
+  background: crimson;
+}
+
+.content {
+  padding-left:1em;
+  padding-top:1em;
+}
+
+
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+#me {
+  animation: colorchange 10s infinite;
+  -webkit-animation: colorchange 15s infinite;
+  background-size: cover;
+  -moz-box-shadow: inset 0 0 280px #000000;
+  -webkit-box-shadow: inset 0 0 280px #000000;
+  box-shadow: inset 0 0 280px #000000;
+}
+
+@keyframes colorchange {
+  0% {
+    background: Baby Blue
+  }
+  25% {
+    background: Blood Orange
+  }
+  50% {
+    background: Blue-Gray;
+  }
+  75% {
+    background: Violet;
+  }
+  100% {
+    background: Aqua;
+  }
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    background: Baby Blue;
+  }
+  25% {
+    background: Blood Orange;
+  }
+  50% {
+    background: Blue-Gray;
+  }
+  75% {
+    background: Violet;
+  }
+  100% {
+    background: Aqua;
+  }
+}
+
+
+#Fa {
+  font-size: 30px;
+  color: black;
+}
+
+#Fr:hover {
+  -webkit-animation: bounce 1s;
+  animation: bounce 1s;
+}
+
+#Fr {
+  font-size: 30px;
+  color: black;
+}
+
+#Fa:hover {
+  -webkit-animation: bounce 1s;
+  animation: bounce 1s;
+}
+
+@font-face {
+  font-family: "cursive";
+  src: url("../fonts/cursive.ttf");
+  font-style: normal;
+  font-weight: 100;
+}
+/*
+ADD CUSTOM STYLES IN YOUR DIV AREAS!
+ */
+
+ .exampleDiv {
+
+   background-color: purple;
+   margin:5px;
+   padding:5px;
+ }
+
+ .alexDiv {
+
+
+ }
+
+ .allieDiv {
+
+
+ }
+
+ .keriDiv {
+
+
+ }
+
+ .chrisWilliamsDiv {
+
+
+ }
+
+ .larryDiv {
+
+
+ }
+
+ .danteDiv {
+
+
+ }
+
+.nickDiv {
+
+
+}
+
+ .chaneyDiv {
+
+
+ }
+
+ .docDiv {
+
+
+ }
+
+.calebDiv {
+
+
+}
+
+.keshaDiv {
+
+
+}
+
+.luzDiv {
+
+
+}
+
+.jameciaDiv {
+
+
+}
+
+.jasmineDiv {
+
+
+}
+
+.tneaDiv {
+
+
+}
+
+.carisaDiv {
+
+
+}
+.cherylDiv {
+  background-color: #BCA9F5;
+  font-size: 24px;
+  font-family: bedstead;
+  margin: 0 30 0 0;
+  text-align: center;
+  color: red;
+}
+
+.cherylDiv h1 {
+  font-size: 24px;
+  color: red;
+
+
+}
+
+.tezDiv {
+
+
+}
+
+.darrellDiv {
+
+
+}
