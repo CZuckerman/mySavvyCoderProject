@@ -7,16 +7,16 @@ for (var i=0; i<50; i++) {
   }
 
 switch (response) {
+  case null:
+    alert("Please enter a valid response, 'door' or 'paper'")
+  break;
+
 case 'door':
     response = prompt("The door is locked, there is a code panel next to the door. What do you do now? Maybe pick up the paper?");
 break;
 
 case 'paper':
     response = prompt("The paper has a number on it. Hmmm, could that be the code to open the door? Try it. Type the code that's on the paper.")
-break;
-
-case null:
-  alert("Please enter a valid response, 'door' or 'paper'")
 break;
 
 case '07734':
