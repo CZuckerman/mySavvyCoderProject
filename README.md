@@ -4,7 +4,7 @@
 
 ![I'm self-starting, dedicated, resourceful](myattributes.png)
 
-I don't like photos, but I do love learning, and I'm going back to my "tech" roots. I've spent a number of years in the business world, doing various techie and non-techie things, then went back to school for my Master of Science in Education, and became a certified teacher. I've spent 18 years teaching, and I've had enough of "torturing" myself with getting up every day and being at school before dawn! So... now, I'm taking a great boot-camp through SavvyCoders, and it's going to be a good ride!
+I love learning, and I'm going back to my "tech" roots. I've spent a number of years in the business world, doing various techie and non-techie things, went back to school for my M.S. in Education, and became a certified teacher. I spent 18 years teaching, and I've just completed a great boot-camp through the Tech Workforce Program, and it's been a great experience!
 
 ## A few quick facts about me
 
