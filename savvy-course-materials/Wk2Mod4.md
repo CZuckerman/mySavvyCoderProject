@@ -131,7 +131,7 @@ Nice work! Be sure to commit all of your stage and `commit` all of your changes 
 ### Exercise 1
 #### the Math Object
 
-We've been using Objects pretty frequently already. Every time you've typed `document.querySelector()` or `console.log()`, you've been accessing functions that are attached to the `document` and `console` objects, respecively. These are built into the browser, and we can use any of the pre-built properties on these Objects using dot notation.
+We've been using Objects pretty frequently already. Every time you've typed `document.querySelector()` or `console.log()`, you've been accessing functions that are attached to the `document` and `console` objects, respectively. These are built into the browser, and we can use any of the pre-built properties on these Objects using dot notation.
 
 There are lots of additional Objects that come packaged within JavaScript, too. One of them is called `Math`. Try out the following in a console:
 
